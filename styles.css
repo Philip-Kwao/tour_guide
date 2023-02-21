@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    background: url("images/blackstarsquare.jpg");
+    padding: 30px 30px 70px 30px;
+    background-size: cover;
+    text-shadow: 0 0 30px black;
+    margin-bottom: -20px;
+}
+.hero-title {
+    color: red;
+}
+.hero-subtitle{
+    color: yellow;
+}
+.hero-subtitle-span{
+    color: green;
+}
+
+.sect{
+    background: #ccc
+}
+.col-sect{
+    display: flex;
+    
+}
+.col-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.col-img:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 30px black;
+}
+.col-title{
+    color: green;
+    margin: 30px;
+}
+.col-title:hover{
+    text-shadow: 0 0 30px black;
+}
+a{
+    text-decoration: none;
+}
+.col-desc{
+    text-align: justify;
+    margin: 20px;
+}
+.sect-title {
+    color: green;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+.guide{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.guide-card{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    border-bottom: 10px solid green;
+    border-radius: 0 0 10px 10px;
+    max-width: 40rem;
+    margin: 10px;
+}
+.guide-img{
+    width: 200px;
+    margin: 0 0 0 1px
+}
+.guide-text{
+    margin: 40px;
+}
+.guide-text>p{
+    font-style: italic; 
+}
